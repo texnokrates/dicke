@@ -71,6 +71,11 @@ customHeadersFooters
 \end_inset
 
 
+\begin_inset FormulaMacro
+\newcommand{\bra}[1]{\left\langle #1\right|}
+\end_inset
+
+
 \end_layout
 
 \begin_layout Left Header
@@ -152,7 +157,7 @@ S^{z}\ket{\downarrow\downarrow0}=-1\ket{\downarrow\downarrow0},\qquad\rightsquig
 \end_inset
 
  
-\begin_inset Formula $\lambda+1$
+\begin_inset Formula $\tau=\lambda+1$
 \end_inset
 
 , is spanned by the vectors (this basis will be used in this order for the
@@ -190,7 +195,7 @@ b^{\dagger}S_{1}^{-}|_{\lambda}=\begin{pmatrix}0 &  & \sqrt{\lambda+1}\\
  &  &  & 0
 \end{pmatrix},\quad b^{\dagger}S_{2}^{-}|_{\lambda}=\begin{pmatrix}0 & \sqrt{\lambda+1}\\
  & 0\\
- &  & 0 & \lambda\\
+ &  & 0 & \sqrt{\lambda}\\
  &  &  & 0
 \end{pmatrix},
 \]
@@ -308,6 +313,183 @@ The corresponding eigenvectors are, without normalisation,
 \[
 \left(-\frac{-\sqrt{g^{2}-2g\omega+2g\epsilon+8V^{2}+\omega^{2}+\epsilon^{2}-2\omega\epsilon}+g-\omega+\epsilon}{2V},1,1\right).
 \]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The hyperbola of the latter modes is given by equation
+\begin_inset Formula 
+\[
+0=-E^{2}-\epsilon E+(g+\omega)E+g\epsilon-g\omega+2V^{2}.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Adding more two-level systems
+\end_layout
+
+\begin_layout Standard
+Let us generalise a bit.
+ Suppose there are 
+\begin_inset Formula $K$
+\end_inset
+
+ atoms now and let us allow more freedom for the couplings,
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+H=\omega b^{\dagger}b+\sum_{i=1}^{K}\epsilon_{i}S_{i}^{z}+\sum_{i=1}^{K}V_{i}\left(b^{\dagger}S_{i}^{-}+S_{i}^{+}b\right)+\sum_{i<j=1}^{K}g_{ij}\left(S_{i}^{+}S_{j}^{-}+S_{j}^{+}S_{i}^{-}\right).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+The constant total excitation number subspace now has up to 
+\begin_inset Formula $2^{K}=\sum_{\kappa=0}^{K}\binom{K}{\kappa}$
+\end_inset
+
+ dimensions.
+ If the total excitation number
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Relation with 
+\begin_inset Formula $\lambda$
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\tau=\lambda+K/2.
+\]
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Formula $\tau$
+\end_inset
+
+ is less than 
+\begin_inset Formula $K$
+\end_inset
+
+, then the subspace has 
+\begin_inset Formula $\sum_{\kappa=0}^{\tau}\binom{K}{\kappa}$
+\end_inset
+
+ dimensions.
+ (The excitation number 
+\begin_inset Formula $n$
+\end_inset
+
+ of the bosonic state lies between 
+\begin_inset Formula $0$
+\end_inset
+
+ and 
+\begin_inset Formula $\tau$
+\end_inset
+
+.
+ For each 
+\begin_inset Formula $n$
+\end_inset
+
+, there are 
+\begin_inset Formula $\tau-n$
+\end_inset
+
+ excitations to be redistributed among 
+\begin_inset Formula $K$
+\end_inset
+
+ atoms, which gives 
+\begin_inset Formula $\binom{K}{\tau-n}$
+\end_inset
+
+ combinations.) The subspace is constructed in this way
+\begin_inset Formula 
+\[
+\mathcal{H}_{\tau}=\bigoplus_{n=\max(0,\tau-K)}^{\tau}\bigoplus_{m=\{m_{1},m_{2},\dots,m_{\tau-n}\}}\mathcal{H}_{n,m}
+\]
+
+\end_inset
+
+where 
+\begin_inset Formula $\mathcal{H}_{n,m}$
+\end_inset
+
+ is the one-dimensional subspace corresponding to 
+\begin_inset Formula $n$
+\end_inset
+
+-th bosonic mode excitation and combination 
+\begin_inset Formula $m$
+\end_inset
+
+ of excited atoms, spanned by state 
+\begin_inset Formula $\ket{n,m}$
+\end_inset
+
+.
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Example (
+\begin_inset Formula $K=5$
+\end_inset
+
+): 
+\begin_inset Formula $\ket{2,\{1,3\}}=\ket{2,\uparrow\downarrow\uparrow\downarrow\downarrow}.$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ We can use the lexical ordering for the multiindex 
+\begin_inset Formula $m$
+\end_inset
+
+ which labels the atom combinations.
+\end_layout
+
+\begin_layout Standard
+Now we need to find a matrix expression for the Hamiltonian projected on
+ that subspace, 
+\begin_inset Formula $H|_{\mathcal{H}_{\tau}}$
+\end_inset
+
+.
+\begin_inset Formula 
+\begin{eqnarray*}
+\epsilon_{i}S_{i}^{z}|_{\mathcal{H}_{\tau}} & = & \frac{\epsilon_{i}}{2}\sum_{n=\max(0,\tau-K)}^{\tau}\left(\sum_{m,i\in m}\ket{n,m}\bra{n,m}-\sum_{m,i\notin m}\ket{n,m}\bra{n,m}\right),\\
+\omega b^{\dagger}b|_{\mathcal{H}_{\tau}} & = & \omega\sum_{n=\max\left(0,\tau-K\right)}^{\tau}n\sum_{m}\ket{n,m}\bra{n,m},\\
+V_{i}b^{\dagger}S_{i}^{-}|_{\mathcal{H}_{\tau}} & = & V_{i}\sum_{n=\max(0,\tau-K)}^{\tau-1}\sqrt{n+1}\sum_{m,i\in m}\ket{n+1,m\setminus\{i\}}\bra{n,m},\\
+V_{i}S_{i}^{+}b|_{\mathcal{H}_{\tau}} & = & \left(V_{i}b^{\dagger}S_{i}^{-}|_{\mathcal{H}_{\tau}}\right)^{\dagger},\\
+g_{i<j}S_{i}^{+}S_{j}^{-}|_{\mathcal{H}_{\tau}} & = & g_{ij}\sum_{n=\max(0,\tau-K)}^{\tau}\sum_{m,j\in m\wedge i\notin m}\ket{n,\left(m\setminus\left\{ j\right\} \right)\cup\{i\}}\bra{n,m},\\
+g_{i<j}S_{j}^{+}S_{i}^{-}|_{\mathcal{H}_{\tau}} & = & \left(g_{i<j}S_{i}^{+}S_{j}^{-}|_{\mathcal{H}_{\tau}}\right)^{\dagger}.
+\end{eqnarray*}
 
 \end_inset
 
