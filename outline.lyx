@@ -85,7 +85,136 @@ Mention Salomon's (slit array; FDTD/Bloch equations) and Delga's (single
 \end_layout
 
 \begin_layout Section*
+Single field mode model
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+This has been done.
+\end_layout
+
+\begin_layout Subsection*
+Model description
+\lang finnish
+
+\begin_inset Formula 
+\[
+H=\omega b^{\dagger}b+\sum_{i=1}^{K}\epsilon_{i}S_{i}^{z}+\sum_{i=1}^{K}V_{i}\left(b^{\dagger}S_{i}^{-}+S_{i}^{+}b\right)+\sum_{i<j=1}^{K}g_{ij}\left(S_{i}^{+}S_{j}^{-}+S_{j}^{+}S_{i}^{-}\right).
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Description: only one field mode, no losses, several dipoles, ...
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How we calculate couplings for real configurations.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Excitation number conserved in RWA.
+\end_layout
+
+\begin_layout Subsection*
+Exact diagonalisation results
+\end_layout
+
+\begin_layout Itemize
+Spectra for 
+\begin_inset Formula $N\lesssim16$
+\end_inset
+
+, single excitation subspace
+\end_layout
+
+\begin_layout Itemize
+Coupling strength effects
+\end_layout
+
+\begin_layout Subsubsection*
+Randomness effects
+\end_layout
+
+\begin_layout Standard
+Effects of disorder on 
+\begin_inset Quotes eld
+\end_inset
+
+band
+\begin_inset Quotes erd
+\end_inset
+
+ width and position.
+\end_layout
+
+\begin_layout Itemize
+Directional randomness.
+\end_layout
+
+\begin_layout Itemize
+Positional randomness.
+\end_layout
+
+\begin_layout Subsubsection*
+Scaling effects
+\end_layout
+
+\begin_layout Itemize
+Nearest neighbour approximation shows no qualitative effects at this tiny
+ scale.
+ This does not necessarily mean that they are negligible in large systems.
+\end_layout
+
+\begin_layout Itemize
+Realistic concentrations and dipole moments.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What are the quantities for our systems.
+\end_layout
+
+\begin_layout Itemize
+How do the effects compare to e.g.
+ thermal energy.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+Interpretation
+\end_layout
+
+\begin_layout Itemize
+Model does not show anything about experimental observables in the real
+ systems.
+\end_layout
+
+\begin_layout Itemize
+On the other hand, we can exactly see in the energy spectrum what can be
+ attributed to the direct d-d interaction and what is mediated.
+\end_layout
+
+\begin_layout Itemize
+Probably no important effects for realistic concentrations.
+\end_layout
+
+\begin_layout Section*
 Multiple scattering model
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+In progress / not done.
+ Cf.
+ timetable.
 \end_layout
 
 \begin_layout Subsection*
@@ -143,15 +272,23 @@ Timetable item 6.
 \end_layout
 
 \begin_layout Section*
-Exactly diagonalised model
+Conclusions
 \end_layout
 
 \begin_layout Standard
 
 \emph on
-How to include this into the paper? 
-\emph default
-We compare the shape of spectra from the scattering models to the 
+Not done.
+\end_layout
+
+\begin_layout Itemize
+What do the results from the two models tell us about how the dipole-dipole
+ interactions affect the system.
+ At which parameter regions do we get some interesting effects.
+\end_layout
+
+\begin_layout Itemize
+Compare the shape of spectra from the scattering models to the 
 \begin_inset Quotes eld
 \end_inset
 
@@ -160,83 +297,6 @@ simple
 \end_inset
 
  exactly diagonalised model.
-\end_layout
-
-\begin_layout Itemize
-Model Hamiltonian
-\lang finnish
-
-\begin_inset Formula 
-\[
-H=\omega b^{\dagger}b+\sum_{i=1}^{K}\epsilon_{i}S_{i}^{z}+\sum_{i=1}^{K}V_{i}\left(b^{\dagger}S_{i}^{-}+S_{i}^{+}b\right)+\sum_{i<j=1}^{K}g_{ij}\left(S_{i}^{+}S_{j}^{-}+S_{j}^{+}S_{i}^{-}\right).
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Description: only one field mode, no losses, several dipoles, ...
-\end_layout
-
-\begin_layout Itemize
-How we calculate couplings for real configurations.
-\end_layout
-
-\end_deeper
-\begin_layout Itemize
-Spectra for 
-\begin_inset Formula $N\lesssim16$
-\end_inset
-
-, single excitations
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-Coupling strength effects
-\end_layout
-
-\begin_layout Itemize
-Scale considerations: realistic concentration and dipole moment vs.
- thermal energy
-\end_layout
-
-\begin_layout Itemize
-Randomness effects
-\end_layout
-
-\begin_layout Itemize
-Model does not show anything about experimental observables in the real
- systems.
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
- On the other hand, we can exactly see in the energy spectrum what can be
- attributed to the direct d-d interaction and what is mediated.
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-Nearest neighbour approximation shows no qualitative effects at this scale.
-\end_layout
-
-\end_deeper
-\begin_layout Section*
-Conclusions
-\end_layout
-
-\begin_layout Itemize
-What do the results from the two models tell us about how the dipole-dipole
- interactions affect the system.
- At which parameter regions do we get some interesting effects.
 \end_layout
 
 \end_body
