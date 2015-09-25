@@ -1,0 +1,6 @@
+geometry  DelgaSphere.scuffgeo
+cache     DelgaSphere_1362.scuffcache
+PFTFile   DelgaSphere_1362.PFT
+OmegaFile OmegaList
+pwDirection 0 0 1 
+pwPolarization 1 0 0 
