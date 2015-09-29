@@ -1,18 +1,18 @@
 //
-// gmsh geometry specification for a sphere of radius R=1
+// gmsh geometry specification for a sphere of radius R
 // 
 
 //************************************************************
 //* input parameters      
 //************************************************************
-R = 1.0;    // radius
+R = 0.007;    // radius in microns
 
 //************************************************************
 //* meshing finenesses ***************************************
 //************************************************************
-l3 = 0.35;  // fineness at north pole
-l2 = 0.35;  // fineness at equator
-l1 = 0.35;  // fineness at south pole
+l3 = 0.0015;  // fineness at north pole
+l2 = 0.0015;  // fineness at equator
+l1 = 0.0015;  // fineness at south pole
 
 //************************************************************
 //* upper sphere *********************************************

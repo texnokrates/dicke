@@ -8,7 +8,7 @@ MATERIAL Silver
 ENDMATERIAL
 
 OBJECT TheSphere
-	MESHFILE Sphere_1362.msh
+	MESHFILE Sphere.msh
 	MATERIAL Silver
 ENDOBJECT
 
