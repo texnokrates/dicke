@@ -1,0 +1,318 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass revtex4
+\options pra,superscriptaddress,twocolumn,notitlepage
+\use_default_options false
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry false
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Quantum emitter dipole-dipole interactions in nanoplasmonic systems
+\end_layout
+
+\begin_layout Author
+M.
+ Nečada, J.-P.
+ Martikainen, P.
+ Törmä
+\end_layout
+
+\begin_layout Affiliation
+COMP Centre of Excellence, Department of Applied Physics, Aalto University,
+ P.O.
+ Box 15100, Fi-00076 Aalto, Finland
+\end_layout
+
+\begin_layout Abstract
+Mauris sed libero.
+ Suspendisse facilisis nulla in lacinia laoreet, lorem velit accumsan velit
+ vel mattis libero nisl et sem.
+ Proin interdum maecenas massa turpis sagittis in, interdum non lobortis
+ vitae massa.
+ Quisque purus lectus, posuere eget imperdiet nec sodales id arcu.
+ Vestibulum elit pede dictum eu, viverra non tincidunt eu ligula.
+\end_layout
+
+\begin_layout Section*
+Introduction
+\end_layout
+
+\begin_layout Itemize
+Our focus: the effects of dipole-dipole interactions between the emitters
+ in the nanoplasmonic array system.
+ What could we see in our systems, i.e.
+ nanoparticle arrays?
+\end_layout
+
+\begin_layout Itemize
+Mention Salomon's (slit array; FDTD/Bloch equations) and Delga's (single
+ sphere; Wubs's frequency domain quantum multiple scattering model) results.
+ Salomon's parameters are probably bit unrealistic in our context.
+\end_layout
+
+\begin_layout Section*
+Single field mode model
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+This has been done.
+\end_layout
+
+\begin_layout Subsection*
+Model description
+\end_layout
+
+\begin_layout Itemize
+Hamiltonian
+\end_layout
+
+\begin_layout Itemize
+Description: only one field mode, no losses, several dipoles, ...
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+How we calculate couplings for real configurations.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Excitation number conserved in RWA.
+\end_layout
+
+\begin_layout Subsection*
+Exact diagonalisation results
+\end_layout
+
+\begin_layout Itemize
+Spectra for 
+\begin_inset Formula $N\lesssim16$
+\end_inset
+
+, single excitation subspace
+\end_layout
+
+\begin_layout Itemize
+Coupling strength effects
+\end_layout
+
+\begin_layout Subsubsection*
+Randomness effects
+\end_layout
+
+\begin_layout Standard
+Effects of disorder on 
+\begin_inset Quotes eld
+\end_inset
+
+band
+\begin_inset Quotes erd
+\end_inset
+
+ width and position.
+\end_layout
+
+\begin_layout Itemize
+Directional randomness.
+\end_layout
+
+\begin_layout Itemize
+Positional randomness.
+\end_layout
+
+\begin_layout Subsubsection*
+Scaling effects
+\end_layout
+
+\begin_layout Itemize
+Nearest neighbour approximation shows no qualitative effects at this tiny
+ scale.
+ This does not necessarily mean that they are negligible in large systems.
+\end_layout
+
+\begin_layout Itemize
+Realistic concentrations and dipole moments.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+What are the quantities for our systems.
+\end_layout
+
+\begin_layout Itemize
+How do the effects compare to e.g.
+ thermal energy.
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+Interpretation
+\end_layout
+
+\begin_layout Itemize
+Model does not show anything about experimental observables in the real
+ systems.
+\end_layout
+
+\begin_layout Itemize
+On the other hand, we can exactly see in the energy spectrum what can be
+ attributed to the direct d-d interaction and what is mediated.
+\end_layout
+
+\begin_layout Itemize
+Probably no important effects for realistic concentrations.
+\end_layout
+
+\begin_layout Section*
+Multiple scattering model
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+In progress / not done.
+ Cf.
+ timetable.
+\end_layout
+
+\begin_layout Subsection*
+Model description
+\end_layout
+
+\begin_layout Itemize
+Brief model description with references to Wubs and Delga
+\end_layout
+
+\begin_layout Itemize
+The advantage of this model is that it should give an actual observable
+ light spectrum.
+\end_layout
+
+\begin_layout Subsection*
+Single nanoparticle case
+\end_layout
+
+\begin_layout Itemize
+Custom nanoparticle geometry: description, BEM modelling, classical scattering
+ properties.
+
+\emph on
+ Timetable item 3.
+ 
+\end_layout
+
+\begin_layout Itemize
+Results: observable spectra for some realistic parameters (QE concentration,
+ dipole moment).
+ Far field / near field.
+ 
+\emph on
+Timetable item 6.
+\end_layout
+
+\begin_layout Subsection*
+Arrays
+\end_layout
+
+\begin_layout Itemize
+Similar as in the previous subsection, but now with multiple nanoparticles
+ in array.
+ 
+\emph on
+Timetable item 5.
+\end_layout
+
+\begin_layout Itemize
+Results: spectra for array geometries.
+ 
+\emph on
+Timetable item 6.
+\end_layout
+
+\begin_layout Section*
+Conclusions
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Not done.
+\end_layout
+
+\begin_layout Itemize
+What do the results from the two models tell us about how the dipole-dipole
+ interactions affect the system.
+ At which parameter regions do we get some interesting effects.
+\end_layout
+
+\begin_layout Itemize
+Compare the shape of spectra from the scattering models to the 
+\begin_inset Quotes eld
+\end_inset
+
+simple
+\begin_inset Quotes erd
+\end_inset
+
+ exactly diagonalised model.
+\end_layout
+
+\end_body
+\end_document
